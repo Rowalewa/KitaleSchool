@@ -1,0 +1,243 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitale School</title>
+    <link rel="icon" href="{% static 'images/ks_logo.png'%}">
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'bootstrap-5.3.2-dist/css/bootstrap.min.css' %}">
+</head>
+<body>
+<div class="head">
+    <header>
+        <h1>Kitale School</h1>
+    </header>
+    <div class="log">
+    <img src="{% static 'images/ks_logo.png' %}" alt="logo">
+    </div>
+</div>
+<p class="motto"><em>Persevere in quest for excellence</em></p>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Kitale School</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#management">Management</a>
+        <a class="nav-link" href="#media">Media</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="home" id="home">
+    <div class="row">
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Mission</h4>
+                <p class="card-text">To provide a conducive environment for the provision of quality education and individuals capable of serving nationally and internationally</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Vision</h4>
+                <p class="card-text">To be recognized as a national institution of academic excellence and Integrity</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Motto</h4>
+                <p class="card-text">Persevere In Quest for excellence</p>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about" id="about">
+    <h1 class="tit">About Us</h1>
+    <div class="row">
+        <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+            <img src="{% static 'images/Kitale school pics/ks gate.jpg' %}" alt="gate">
+        </div>
+        <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+            <p class="info">Kitale School is one of the few pre-colonial learning institutions in the country.
+            The institution was set up by the colonial government under the sponsorship of the Church Mission Society, current-day ACK.
+            Started 90 years ago, Kitale School has withstood the test of time to maintain high education standards in the region.
+            Located about two kilometres from Kitale town, the school sits on 70 acres and is among five pre-colonial learning institutions in the country.
+            Others are Nairobi School, Molo School, the Hill School in Eldoret and Nyeri Primary School.
+            When Sir Edward Grigg became governor in 1925, he provided funds for building the school which admitted white learners only.
+            The agricultural depression of the 1930s and the locust invasion that caused extensive crop damage spelt doom for the town, adversely affecting the growth of the school.
+            It was not until the end of World War II that the deployment of British army soldiers boosted the fortunes of Kitale town, positively impacting on the school's growth.
+            Businessman Mogul Paresh Tanna was the first Asian child to enrol in 1962 after the institution opened its doors to non-whites when Kenya gained independence in 1963.</p>
+        </div>
+    </div>
+</div>
+<div class="management" id="management">
+    <h1 class="tit">Management</h1>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <table>
+                <tr>
+                    <td></td>
+                    <td><strong>Name</strong></td>
+                    <td><strong>Post</strong></td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Rev. Dr. Emmanuel Chemengich</td>
+                    <td>Chairman</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Mrs. Margaret Wanyonyi</td>
+                    <td>Secretary</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Mr. Alfred Busolo</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Mr. Okutoyi W. Satia</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Mrs. Halima Ali</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Mrs. Dorcas Kiteshuo</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Mr. Aggrey Namisi</td>
+                    <td>PTA Chairman (Secondary) / Member</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td> Mrs. Sally Lukuyu</td>
+                    <td>PTA Representative (Primary) / Member</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td> Mr. Isaac Mutirithia</td>
+                    <td>(Representative of Provincial administration/ Chief)</td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td>Ven. Kabiru Mbugua</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>11.</td>
+                    <td>Mrs. Florence Lihavi</td>
+                    <td>ECD Representative</td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td>Mr. Robert Sagala</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>13.</td>
+                    <td>Rev. Peter Chege</td>
+                    <td>(Education Secretary, ACK)</td>
+                </tr>
+                <tr>
+                    <td>14.</td>
+                    <td>Mr. Ronald Jumbe</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>15.</td>
+                    <td>Mrs. Mary Muttai</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>16.</td>
+                    <td>Mr. Peter Kiarie</td>
+                    <td>Member</td>
+                </tr>
+                <tr>
+                    <td>17.</td>
+                    <td>District Education Officer</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="media" id="media">
+    <h1 class="tit">Media</h1>
+    <div class="row">
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="{% static 'images/Kitale school pics/parade.jpg'%}" alt="parade">
+            <img src="{% static 'images/Kitale school pics/upper field ks.jpg' %}" alt="upper">
+            <img src="{% static 'images/Kitale school pics/houses ks.jpg' %}" alt="houses">
+            <img src="{% static 'images/Kitale school pics/class best.jpg' %}" alt="class">
+        </div>
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="{% static 'images/Kitale school pics/basket ball.jpg' %}" alt="basketball">
+            <img src="{% static 'images/Kitale school pics/bird ks.jpg' %}" alt="bird">
+            <img src="{% static 'images/Kitale school pics/blank swima.jpg' %}" alt="swimming">
+            <img src="{% static 'images/Kitale school pics/swim pool.jpg' %}" alt="pool">
+        </div>
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="{% static 'images/Kitale school pics/swima pool path.jpg' %}" alt="path">
+            <img src="{% static 'images/Kitale school pics/bus n students.jpg' %}" alt="bus">
+            <img src="{% static 'images/Kitale school pics/chaplaincy.jpg' %}" alt="clergy">
+            <img src="{% static 'images/Kitale school pics/field 2.jpg' %}" alt="field">
+        </div>
+    </div>
+</div>
+<div class="contact" id="contact">
+    <h1 class="tit">Contact</h1>
+    <div class="row">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="social">
+                <h2 class="sub">Social Media</h2>
+                    <a href="https://www.facebook.com/isaacopondo4/"><img src="{% static 'images/fb_icon.png' %}" alt="fb"></a>
+                    <a href="https://twitter.com/kitaleacademy?lang=en"><img src="{% static 'images/X_icon.png' %}" alt="x"></a>
+                    <a href="https://www.instagram.com/explore/locations/618798719/kitale-school/"><img src="{% static 'images/ig_icon.png' %}" alt="ig"></a>
+            </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="phone">
+                <div class="card" style="width:600px">
+                    <div class="card-body">
+                    <h4 class="card-title">Phone Number</h4>
+                    <p class="card-text"> 0712211615</p>
+                    </div>
+                </div>
+            </div>
+            <div class="email">
+                <div class="card" style="width:600px">
+                    <div class="card-body">
+                    <h4 class="card-title">Email</h4>
+                    <p class="card-text">info@kitaleschool.sc.ke</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2230936235965!2d34.87176771018356!3d0.9897093626241793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17818bcdb2198c01%3A0x69a12693f7a3491d!2sKITALE%20SCHOOL!5e0!3m2!1sen!2ske!4v1707330188541!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+<a href = “https://www.freepik.com/”>Click here to see more</a>
+</div>
+</body>
+</html>
